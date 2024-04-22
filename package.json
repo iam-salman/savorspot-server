@@ -1,0 +1,16 @@
+{
+  "name": "savorspot-server",
+  "version": "1.0.0",
+  "description": "A Node.js web server that fetches data from a third-party (Swiggy) API and exposes it to a client (SavorSpot) app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Salman Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.19.2"
+  }
+}
